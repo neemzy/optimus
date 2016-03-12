@@ -1,0 +1,20 @@
+{
+    "name": "aecf/optimus",
+    "description": "Data transformation as a service",
+    "authors": [
+        {
+            "name": "Tom Panier",
+            "email": "tpanier@auchan.net"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aecf\\Optimus\\": "src/",
+            "Aecf\\Optimus\\Tests\\": "tests/"
+        }
+    }
+}
